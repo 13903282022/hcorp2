@@ -1,25 +1,28 @@
 # Getting Started with Terraform in AWS
 
 ## Prerequisites
-Amazon Web Services (AWS) Account
-AWS Provider configured with credentials [Terraform AWS Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 
-## What's Terraform?
-Terraform is a tool that allows you to build, change, and version infrastructure safely and efficiently within AWS.  Infrastructure as code (IaC)allows you to manage infrastructure with configuration files rather than through a graphical user interface.  
-We provide Getting Started Guides platforms including [AWS](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started),  [OCI](https://learn.hashicorp.com/collections/terraform/oci-get-started), [GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started), [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started), and [Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
+* An AWS account.
+* Your AWS credentials. 
+* AWS CLI installed.
+* AWS Provider configured with your credentials [Terraform AWS Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+
+## Terraform Works On Many Platforms
+Terraform is a tool that allows you to build, change, and version infrastructure in AWS.  In Terraform you manage infrastructure with configuration files rather than through a graphical user interface (GUI).  
+We provide Getting Started Guides for [AWS](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started),  [OCI](https://learn.hashicorp.com/collections/terraform/oci-get-started), [GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started), [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started), and [Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
 
 ## Install Terraform
 
 Go to [Terraform.io](https://www.terraform.io/downloads.html) and download the installation file for your environment. 
 
-### Create Terraform Directory
+### Create Directory
 Create a directory for the Terraform configuration file.
 
 ```shell
 $ mkdir terraform-demo
 $ cd terraform-demo
 ```
-## Create Terraform Configuration File
+## Create Configuration File
 Create a file for your Terraform configuration code.
 
 ```shell
@@ -51,6 +54,7 @@ resource "docker_image" "nginx" {
   name = "nginx:latest"
 }
 ```
+This code configures a docker container with the latest Nginx image. 
 
 ### Initialize Terraform
 

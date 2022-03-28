@@ -10,12 +10,12 @@
 
 ## Get the correct tutorial
  
-We provide Getting Started Guides for [AWS](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started),  [OCI](https://learn.hashicorp.com/collections/terraform/oci-get-started), [GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started), [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started), and [Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
+We provide Getting Started Guides for; [AWS](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started),  [OCI](https://learn.hashicorp.com/collections/terraform/oci-get-started), [GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started), [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started), and [Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
 
 ## Install Terraform
 
-Go to [Terraform.io](https://www.terraform.io/downloads.html) and download the installation file. 
-Run the executable file in your environment. 
+Go to [Terraform.io](https://www.terraform.io/downloads.html) and download your file. 
+Run the installation file in the environment where you want to run Terraform. 
 
 
 ### Verify the installation
@@ -70,7 +70,6 @@ resource "docker_image" "nginx" {
   name = "nginx:latest"
 }
 ```
-This code builds a docker container with the latest Nginx image. 
 
 ### Initialize Terraform
 

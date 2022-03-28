@@ -8,9 +8,8 @@
 * AWS CLI installed
 * AWS Provider configured (See [Terraform AWS Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs))
 
-## Get the tutorial for you
-Terraform is a tool that allows you to build, change, and version infrastructure as code. 
-Terraform helps you manage cloud infrastructure with configuration files instead of a graphical user interface (GUI).  
+## Get the correct tutorial
+ 
 We provide Getting Started Guides for [AWS](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started),  [OCI](https://learn.hashicorp.com/collections/terraform/oci-get-started), [GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started), [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started), and [Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
 
 ## Install Terraform

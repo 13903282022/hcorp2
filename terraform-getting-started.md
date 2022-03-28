@@ -23,8 +23,11 @@ Run the executable file in your environment.
 ```shell
 $ terraform
 ```
-![Output after install](terraformOutput.jpg "Output of terraform command")
-Output shows Terraform subcommands.
+When installed correctly ouput shows:
+```shell
+Usage: terraform [global options] <subcommand> [args]
+
+```
 
 ### Create Directory
 

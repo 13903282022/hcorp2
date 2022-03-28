@@ -91,7 +91,6 @@ $ terraform apply
 The command may take a few minutes to run and when done output shows the resources are created.
 
 ### Destroy resources
-Next you destroy the infrastructure.
 
 ```shell
 $ terraform destroy
@@ -102,7 +101,8 @@ When the shell asks for confirmation type `yes` and hit ENTER.
 Terraform destroys the resources created earlier.
 
 # Next Steps
-Go to https://learn.hashicorp.com/terraform to view more Terraform tutorials.
+Congratulations! You completed your first tutorial.
+Go to [learn.hashicorp.com](https://learn.hashicorp.com/terraform) for more Terraform tutorials.
 
 
 

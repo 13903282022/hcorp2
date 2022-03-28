@@ -1,10 +1,16 @@
-# Getting Started with Terraform
+# Getting Started with Terraform in AWS
 
-Terraform is a tool that allows you to build, change, and version infrastructure safely and efficiently.  
+## Prerequisites
+Amazon Web Services (AWS) Account
+AWS Provider configured with credentials [Terraform AWS Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+
+## What's Terraform?
+Terraform is a tool that allows you to build, change, and version infrastructure safely and efficiently within AWS.  Infrastructure as code (IaC)allows you to manage infrastructure with configuration files rather than through a graphical user interface.  
+We provide Getting Started Guides platforms including [AWS](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started),  [OCI](https://learn.hashicorp.com/collections/terraform/oci-get-started), [GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started), [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started), and [Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
 
 ## Install Terraform
 
-Go to [Terraform.io](https://www.terraform.io/downloads.html) and download the installation file for your environment.
+Go to [Terraform.io](https://www.terraform.io/downloads.html) and download the installation file for your environment. 
 
 ### Create Terraform Directory
 Create a directory for the Terraform configuration file.
@@ -76,7 +82,7 @@ When the output asks for confirmation type `yes` and hit ENTER.
 Terraform destroys the resources created earlier.
 
 # Next Steps
-Go to https://learn.hashicorp.com/terraform to see all the Terraform tutorials.
+Go to https://learn.hashicorp.com/terraform to view more Terraform tutorials.
 
 
 

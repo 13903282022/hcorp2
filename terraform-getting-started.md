@@ -2,18 +2,21 @@
 
 ## Prerequisites
 
-* An AWS account.
-* Your AWS credentials. 
-* AWS CLI installed.
-* AWS Provider configured with your credentials [Terraform AWS Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+* Internet connection
+* An AWS account
+* Your AWS credentials 
+* AWS CLI installed
+* AWS Provider configured (See [Terraform AWS Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs))
 
 ## Get the tutorial for you
-Terraform is a tool that allows you to build, change, and version infrastructure as code. Terraform helps you manage cloud infrastructure with configuration files instead of a graphical user interface (GUI).  
+Terraform is a tool that allows you to build, change, and version infrastructure as code. 
+Terraform helps you manage cloud infrastructure with configuration files instead of a graphical user interface (GUI).  
 We provide Getting Started Guides for [AWS](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started),  [OCI](https://learn.hashicorp.com/collections/terraform/oci-get-started), [GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started), [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started), and [Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
 
 ## Install Terraform
 
-Go to [Terraform.io](https://www.terraform.io/downloads.html) and download the installation file for your environment. 
+Go to [Terraform.io](https://www.terraform.io/downloads.html) and download the installation file. 
+Run the executable file in your environment. 
 
 
 ### Verify the installation
@@ -71,7 +74,7 @@ Initialize Terraform with the `init` command and the AWS provider will be instal
 $ terraform init
 ```
 
-Note: If you see errors in the output check that you have all the Prerequisites listed at the top of this document. 
+Note: If you see errors in the output check that you have all the [Prerequisites] (https://github.com/13903282022/hcorp2/blob/main/terraform-getting-started.md#prerequisites) listed at the top of this document. 
 
 ### Build resources
 

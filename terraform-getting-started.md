@@ -19,12 +19,15 @@ Run the executable file in your environment.
 
 
 ### Verify the installation
+
 ```shell
-$ terraform-help
+$ terraform
 ```
-Output shows Terraform subcommands when installation is working.
+![Output after install](terraformOutput.jpg "Output of terraform command")
+Output shows Terraform subcommands.
 
 ### Create Directory
+
 Create a directory for the Terraform configuration file.
 
 ```shell
@@ -32,7 +35,8 @@ $ mkdir terraform-demo
 $ cd terraform-demo
 ```
 ### Create Configuration
-Create a file for your Terraform configuration code.
+
+Create a file for your Terraform code.
 
 ```shell
 $ touch main.tf
@@ -63,17 +67,17 @@ resource "docker_image" "nginx" {
   name = "nginx:latest"
 }
 ```
-This code configures a docker container with the latest Nginx image. 
+This code builds a docker container with the latest Nginx image. 
 
 ### Initialize Terraform
 
-Initialize Terraform with the `init` command and the AWS provider will be installed. 
+Run the `init` command and the AWS provider is installed. 
 
 ```shell
 $ terraform init
 ```
 
-Note: If you see errors in the output check that you have all the [Prerequisites] (https://github.com/13903282022/hcorp2/blob/main/terraform-getting-started.md#prerequisites) listed at the top of this document. 
+Note: If you see error(s) at at the init step check that you have all the [Prerequisites] (https://github.com/13903282022/hcorp2/blob/main/terraform-getting-started.md#prerequisites) listed at the top of this document. 
 
 ### Build resources
 

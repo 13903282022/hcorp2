@@ -80,7 +80,7 @@ Run the `init` command and the AWS provider is installed.
 $ terraform init
 ```
 
-Note: If you see error(s) at at the init step check that you have all the [Prerequisites] (https://github.com/13903282022/hcorp2/blob/main/terraform-getting-started.md#prerequisites) listed at the top of this document. 
+Note: If you see error(s) check that you have all the [Prerequisites](https://github.com/13903282022/hcorp2/blob/main/terraform-getting-started.md#prerequisites) for this tutorial. 
 
 ### Build resources
 

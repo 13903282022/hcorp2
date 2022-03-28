@@ -7,13 +7,20 @@
 * AWS CLI installed.
 * AWS Provider configured with your credentials [Terraform AWS Docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 
-## Terraform Works On Many Platforms
-Terraform is a tool that allows you to build, change, and version infrastructure in AWS.  In Terraform you manage infrastructure with configuration files instead of a graphical user interface (GUI).  
+## Get the tutorial for you
+Terraform is a tool that allows you to build, change, and version infrastructure as code. Terraform helps you manage cloud infrastructure with configuration files instead of a graphical user interface (GUI).  
 We provide Getting Started Guides for [AWS](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started),  [OCI](https://learn.hashicorp.com/collections/terraform/oci-get-started), [GCP](https://learn.hashicorp.com/collections/terraform/gcp-get-started), [Docker](https://learn.hashicorp.com/collections/terraform/docker-get-started), and [Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
 
 ## Install Terraform
 
 Go to [Terraform.io](https://www.terraform.io/downloads.html) and download the installation file for your environment. 
+
+
+### Verify the installation
+```shell
+$ terraform-help
+```
+Output shows Terraform subcommands when installation is working.
 
 ### Create Directory
 Create a directory for the Terraform configuration file.
@@ -22,7 +29,7 @@ Create a directory for the Terraform configuration file.
 $ mkdir terraform-demo
 $ cd terraform-demo
 ```
-### Create Configuration File
+### Create Configuration
 Create a file for your Terraform configuration code.
 
 ```shell
@@ -66,7 +73,7 @@ $ terraform init
 
 Note: If you see errors in the output check that you have all the Prerequisites listed at the top of this document. 
 
-### Provision resources with `apply` 
+### Build resources
 
 ```shell
 $ terraform apply
@@ -74,14 +81,14 @@ $ terraform apply
 
 The command may take a few minutes to run and when done output shows the resources are created.
 
-### Remove resources with `destroy`
+### Destroy resources
 Next you destroy the infrastructure.
 
 ```shell
 $ terraform destroy
 ```
 
-When the output asks for confirmation type `yes` and hit ENTER. 
+When the shell asks for confirmation type `yes` and hit ENTER. 
 
 Terraform destroys the resources created earlier.
 
